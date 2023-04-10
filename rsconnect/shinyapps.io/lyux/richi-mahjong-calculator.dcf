@@ -1,0 +1,14 @@
+name: richi-mahjong-calculator
+title: richi-mahjong-calculator
+username:
+account: lyux
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8812348
+bundleId: 7072771
+url: https://lyux.shinyapps.io/richi-mahjong-calculator/
+when: 1681164944.42822
+lastSyncTime: 1681164944.42823
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: ~$rule.xlsx
