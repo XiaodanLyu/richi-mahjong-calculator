@@ -1,0 +1,16 @@
+{
+  "name": "日本麻将算分器",
+  "short_name": "日麻算分",
+  "description": "方便记不住日麻算分表的小伙伴结算点数。可根据用户输入的和牌的情况（比如庄家自摸或闲家容和，番数和符数）自动输出入帐、出账结果。",
+  "lang": "zh-CN",
+  "start_url": "/richi-mahjong-calculator",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "icons/icon.png",
+      "sizes": "144x144"
+    }
+  ]
+}
