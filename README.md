@@ -22,8 +22,8 @@ Please use `GitHub Issues` for new feature request and bug report.
 
 ## Collaboration
 
-Welcome to contribute to the tool through `GitHub Pull Request`.
+You are more than welcome to contribute to this tool through `GitHub Pull requests`.
 
 ## Acknowledgement
 
-This Shiny mobile app is developed by following the tutorial of the R package [shinyMobile]<https://shinymobile.rinterface.com/>.
+This Shiny mobile app is developed by following the tutorial of the R package [shinyMobile](https://shinymobile.rinterface.com/).
