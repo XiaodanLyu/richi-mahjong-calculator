@@ -6,6 +6,15 @@ source("data_process.r")
 shinyApp(
   ui = f7Page(
     title = "Richi Mahjong Calculator",
+    includeHTML("www/splashscreens.html"),
+    options = list(
+      dark = TRUE,
+      pullToRefresh = FALSE,
+      toolbar = list(
+        hideNavOnPageScroll = TRUE
+      )
+    ),
+    allowPWA = TRUE,
     f7SingleLayout(
       navbar = f7Navbar(
         title = "Richi Mahjong Calculator",
@@ -14,7 +23,8 @@ shinyApp(
       ),
       toolbar = f7Toolbar(
         position = "bottom",
-        f7Link(label = "About Author", href = "https://www.annielyu.com")
+        f7Link(label = "About Author", href = "https://www.annielyu.com"),
+        f7Link(label = "Source Code", href = "https://github.com/XiaodanLyu/richi-mahjong-calculator")
       ),
       # main content
       f7Block(strong("和牌：")),
@@ -73,7 +83,7 @@ shinyApp(
     )
     output$summary <- renderText({
       print(paste0(ifelse(input$is_zhuang, "庄家", "闲家"),
-                   ifelse(input$is_mo, "自摸", "容和"),
+                   ifelse(input$is_mo, "自摸", "荣和"),
                    " ",
                    input$fan,
                    "番",
