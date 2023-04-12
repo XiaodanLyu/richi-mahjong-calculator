@@ -6,7 +6,8 @@ source("data_process.r")
 shinyApp(
   ui = f7Page(
     title = "Richi Mahjong Calculator",
-    includeHTML("www/splashscreens.html"),
+    tags$head(includeHTML("www/splashscreens.html")),
+    tags$head(includeHTML("www/google-analytics.html")),
     options = list(
       dark = TRUE,
       pullToRefresh = FALSE,
@@ -27,7 +28,7 @@ shinyApp(
         f7Link(label = "Source Code", href = "https://github.com/XiaodanLyu/richi-mahjong-calculator")
       ),
       # main content
-      f7Block(strong("和牌：")),
+      f7Block(h3("和牌：")),
       f7Card(
         f7Toggle(
           inputId = "is_zhuang",
@@ -56,7 +57,7 @@ shinyApp(
         choices = unique(data$fu),
         value = "30"
       ),
-      f7Block(strong("结算：")),
+      f7Block(h3("结算：")),
       f7List(
         f7ListItem(
           title = "小结：",

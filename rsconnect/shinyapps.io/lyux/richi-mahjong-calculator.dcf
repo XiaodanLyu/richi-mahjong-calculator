@@ -5,9 +5,10 @@ account: lyux
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8812348
-bundleId: 7073040
+bundleId: 7077719
 url: https://lyux.shinyapps.io/richi-mahjong-calculator/
-when: 1681171655.81777
-lastSyncTime: 1681171655.81778
+when: 1681258236.95775
+lastSyncTime: 1681258236.95776
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: .RData|README.md
