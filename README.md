@@ -1,11 +1,10 @@
 # richi-mahjong-calculator
 
-Richi Mahjong Calculator App (mobile friendly UI, developed for fun)
+Riichi Mahjong Calculator App (mobile friendly UI, developed for fun)
 
-Live version: https://lyux.shinyapps.io/richi-mahjong-calculator/
+## Mobile App
 
-## Install this tool as an App in your mobile phone for quick access
-
+You can install this tool as an App in your mobile phone for quick access.
 - Copy the url of this tool: https://lyux.shinyapps.io/richi-mahjong-calculator/
 - Select the share button located in the bottom bar of your Iphone/Ipad. For Android, you may do something similar. Importantly, Chrome for iOS does not support this feature, please use Safari.
 - Click on "Add to Home Screen"

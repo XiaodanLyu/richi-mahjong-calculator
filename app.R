@@ -5,7 +5,7 @@ source("data_process.r")
 
 shinyApp(
   ui = f7Page(
-    title = "Richi Mahjong Calculator",
+    title = "Riichi Mahjong Calculator",
     tags$head(includeHTML("www/splashscreens.html")),
     tags$head(includeHTML("www/google-analytics.html")),
     options = list(
@@ -18,7 +18,7 @@ shinyApp(
     allowPWA = TRUE,
     f7SingleLayout(
       navbar = f7Navbar(
-        title = "Richi Mahjong Calculator",
+        title = "Riichi Mahjong Calculator",
         hairline = TRUE,
         shadow = TRUE
       ),
